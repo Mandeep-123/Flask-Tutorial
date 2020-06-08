@@ -7,4 +7,4 @@ def index():
 	return '<p>Your browser is {}</p>'.format(user_agent)
 @app.route('/new')
 def newfun():
-	return '<a href="www.google.com">Google</a>'
+	return '<a href="https://www.google.com">Google</a>'
