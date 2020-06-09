@@ -4,9 +4,9 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello World!"
+    return "Hello connect check"
 
 
 @app.route('/<name>')
 def hello_name(name):
-    return "Hello {}!".format(name)
+    return "Hello checked by {}!".format(name)
