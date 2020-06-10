@@ -15,7 +15,7 @@ def hello_name(name):
 
 @app.route('/redirect')
 def redirecf():
-	return redirect('http://www.example.com')
+	return redirect('http://www.google.com')
 
 @app.route('/user/<id>')
 def get_user(id):
